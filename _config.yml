@@ -1,0 +1,21 @@
+# Site settings
+title: Jonathan Yi at Flat Iron
+header-img: img/home-bg.png
+email: jonathanyi81@gmail.com
+copyright_name: Nitro152
+description: > # this means to ignore newlines until "baseurl:"
+  Learning Full Stack Web Development with React
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  Nitro152
+learn_profile: Nitro152
+email_username: jonathanyi81@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
